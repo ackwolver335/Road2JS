@@ -1,4 +1,4 @@
-# Variables Category
+# 3. Variables Category
 
 Before the introduction of ES6, for defining variables *var* keyword was used declaring any variable in JS and regrading declaring in today's time we uses another keywords like **let** and **const** for declaring variables in Javascript.
 
@@ -9,6 +9,8 @@ Before the introduction of ES6, for defining variables *var* keyword was used de
 | **vars** | *We can change its value and properties from any particular scope and can be redeclared.* |
 | **let** | *We can not change its value in same block, {Block Scope} and can't be redeclared.* |
 | **const** | *It's value can't be redeclared once it is defined in the program and need to be initialised.* |
+
+### Source Code
 
 ```javascript
 // var keyword not recommend but example given below

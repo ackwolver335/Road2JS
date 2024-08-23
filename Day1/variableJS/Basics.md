@@ -1,4 +1,4 @@
-# JS Variables
+# 2. JS Variables
 
 Variables in JS are considered similar to the containers that we can use to store the data regarding different of its categories, and we can also change its types at runtime and this is called as Dynamically Typed Language. Syntax rules are followed in order to run the program.
 
