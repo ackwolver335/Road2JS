@@ -11,6 +11,11 @@ let lastName = "Wolver";
 
 console.log(`My First Name is : ${firstName} and Last Name is : ${lastName}`);
 
+// 4. Accessing String Indexes
+console.log("Accessing String Indexes : ");
+console.log("First Index element : " + single1[0]);
+console.log("Second Index element : " + single1[1]);
+
 // Escape Sequence Characters
 // 1. \' or \" for adding quotation in between of the Code
 console.log("Here we have \' quote with escape sequence character !");
