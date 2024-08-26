@@ -29,5 +29,16 @@ console.log(`String in lowerCase : ${str1.toLowerCase()}`);
 // Chapter 4 - Practice Set - Q4.
 // Extract particular amount of String part from the current available string
 let str2 = "Please give Rs.1000";
-let partition = str2.slice("Please give Rs.".length);
-console.log("Retreived String : " + partition);
+let partition = Number.parseInt(str2.slice("Please give Rs.".length));
+console.log("Retreived amount : " + partition);
+console.log(typeof partition);
+
+// Chapter 5 - Practice Set - Q5.
+// Try to change the 4rth character of the string, will you able to do it
+console.log("Initial String : " + str2);
+
+// Trying to change the 4rth character
+str2[3] = "R";
+console.log(str2);
+
+// We're not able to do it as the Strings are Immutable
