@@ -10,11 +10,15 @@ const prompt = require('prompt-sync')();
 let user_data;
 
 do{
-    user_data = Number.parseInt(prompt("Guess the right number : "));
+    user_data = Number.parseInt(prompt("Guess the right number within 1-100 : "));
     if(user_data == num1){
         guess++;
         break;
-    } else {
+    } else if(user_data < num1){
+        guess++;
+        console.log("The Number is lower !");
+    }
+    else if(user_data > num1) {
         guess++;
     }
 } while(user_data != num1);
