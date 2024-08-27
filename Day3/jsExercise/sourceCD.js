@@ -1,6 +1,7 @@
 // Exercise 1 Problem
 // Generating a random number that will be secret
 let num1 = Math.floor((Math.random() * 100) + 1);
+console.log(typeof num1);
 
 // Guess Chances
 let guess = 0;
@@ -14,11 +15,11 @@ do{
     if(user_data == num1){
         guess++;
         break;
-    } else if(user_data < num1){
-        guess++;
+    } else if(user_data > num1){
         console.log("The Number is lower !");
-    }
-    else if(user_data > num1) {
+        guess++;
+    } else if(user_data < num1) {
+        console.log("The Number is greater !");
         guess++;
     }
 } while(user_data != num1);
