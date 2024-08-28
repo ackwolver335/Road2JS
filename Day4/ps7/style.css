@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 50px;
+    margin: 15px;
+    padding: 5px;
+}
+
+nav li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
