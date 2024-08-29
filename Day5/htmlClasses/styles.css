@@ -1,0 +1,18 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.yellow-back{
+    background-color: yellow;
+    padding: 10px;
+}
+
+.text-dark{
+    color: black;
+}
+
+.red-back{
+    background-color: red;
+    padding: 10px;
+}
