@@ -1,0 +1,28 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 10px;
+    background: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.container p{
+    margin: 10px 0;
+    padding: 0px;
+    font-size: 18px;
+    text-align: center;
+}
